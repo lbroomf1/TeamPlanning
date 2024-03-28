@@ -26,7 +26,7 @@ struct ContentView: View {
             }
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("Time Remaining")
-            .accessibilityValue("10 mintues total")
+            .accessibilityValue("10 minutes total")
             Circle()
                 .strokeBorder(lineWidth: 24)
             HStack {
