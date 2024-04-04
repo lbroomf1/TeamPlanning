@@ -37,5 +37,10 @@ enum Theme: String {
     var mainColor: Color {
         Color(rawValue)
     }
+    
+    //property that capitalizes the name
+    var name: String {
+        rawValue.capitalized
+    }
 }
 
